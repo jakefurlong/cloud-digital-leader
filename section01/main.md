@@ -24,7 +24,7 @@ Explain why and how the cloud is revolutionizing businesses.
     - Source: https://cloud.google.com/learn/what-is-cloud-computing
 - Explain the benefits of cloud technology to a business’ digital transformation.
   - this technology is scalable, exible, agile, secure, cost-effective and offers strategic value.
-    - Source: https://services.google.com/fh/files/misc/cloud_digital_leader_exam_guide_english.pdf
+    - Source: https://cloud.google.com/learn/advantages-of-cloud-computing & https://cloud.google.com/learn/what-is-digital-transformation
 - Describe the primary benefits of on-premises infrastructure, public cloud, private cloud, hybrid cloud, and multicloud and differentiate between them.
 
 | **Factor**              | **On-Premises**        | **Public Cloud**        | **Private Cloud**        | **Hybrid Cloud**         | **Multicloud**          |
