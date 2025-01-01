@@ -20,6 +20,8 @@ Explain why and how the cloud is revolutionizing businesses.
   - Open Standard: a standard that is freely available for adoption, implementation and updates.
     - Source: https://www.ibm.com/think/topics/open-standards-vs-open-source-explanation
 - Describe the differences between cloud technology and traditional or on-premises technology.
+  - Cloud computing differs from traditional on-premises IT primarily in flexibility, cost, and management. On-premises requires significant upfront investment in hardware and software, with in-house teams handling maintenance, security, and scaling. In contrast, cloud computing operates on a pay-as-you-go model, offering scalable, internet-based services managed by third-party providers, which reduce maintenance burdens and enhance accessibility. While on-premises offers more control and can be better for strict compliance needs, cloud solutions excel in adaptability and cost efficiency.
+    - Source: https://cloud.google.com/learn/what-is-cloud-computing
 - Explain the benefits of cloud technology to a business’ digital transformation.
   - this technology is scalable, exible, agile, secure, cost-effective and offers strategic value.
     - Source: https://services.google.com/fh/files/misc/cloud_digital_leader_exam_guide_english.pdf
