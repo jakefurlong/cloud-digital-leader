@@ -58,5 +58,40 @@ Explain why and how the cloud is revolutionizing businesses.
 
 ## 1.2 - Fundamental Cloud Concepts
 
+Explain general cloud concepts.
+
+- Describe how transitioning to a cloud infrastructure affects flexibility, scalability, reliability, elasticity, agility, and total cost of ownership (TCO). Apply these concepts to various business use cases.
+  - Cloud computing gives your business more flexibility. You can quickly scale resources and storage up to meet business demands without having to invest in physical infrastructure. Companies don’t need to pay for or build the infrastructure needed to support their highest load levels. Likewise, they can quickly scale down if resources aren’t being used.  The cloud delivers more flexibility and reliability, increased performance and efficiency, and helps to lower IT costs. It also improves innovation, allowing organizations to achieve faster time to market and incorporate AI and machine learning use cases into their strategies.
+    - Source: https://cloud.google.com/learn/advantages-of-cloud-computing
+    - Source: ChatGPT provided use cases and TCO information
+- Explain how an organization’s transition from an on-premises environment to the cloud shifts their capital expenditures (CapEx) to operational expenditures (OpEx), and how that affects their total cost of ownership (TCO).
+  - Cloud infrastructure allows businesses to experiment with new tools, deploy services globally, and support remote workforces without upfront hardware investment. A startup can deploy applications and test them on GCP without heavy initial investments. It's also expensive to build and maintain infrastructure hosted in a data center. Hostings costs for hardware, replacements/upgrades, security, power, etc. are expensive and require upfront capital in addition to regular operational overhead costs.
+    - Source: My brain and ChatGPT. If it makes you feel any better I have an MBA so I feel qualified to answer this question as there was no TCO documentation provided by google.
+- Identify when private, hybrid, or multicloud infrastructures best apply to different business use cases.
+  - Public clouds are run by third-party cloud service providers. They offer compute, storage, and network resources over the internet, enabling companies to access shared on-demand resources based on their unique requirements and business goals. Private clouds are built, managed, and owned by a single organization and privately hosted in their own data centers, commonly known as “on-premises” or “on-prem.” They provide greater control, security, and management of data while still enabling internal users to benefit from a shared pool of compute, storage, and network resources. Hybrid clouds combine public and private cloud models, allowing companies to leverage public cloud services and maintain the security and compliance capabilities commonly found in private cloud architectures.
+  - Source: https://cloud.google.com/learn/what-is-cloud-computing
+- Define basic network infrastructure terminology, including: IP address; internet service provider (ISP); domain name server (DNS), regions, and zones; fiber optics; subsea cables; network edge data centers, latency; and bandwidth.
+  - IP Address: the unique identifying number assigned to every device connected to the internet.
+    - Source: https://www.fortinet.com/resources/cyberglossary/what-is-ip-address
+  - ISP: a company that provides individuals and organizations access to the internet and other related services. 
+    - Source: https://www.techtarget.com/whatis/definition/ISP-Internet-service-provider
+  - DNS: It is essentially the “phone book” of the internet, translating user-friendly domain names (like www.example.com) into numerical IP addresses (such as 192.0.1) that computers and network devices use to locate one another on the internet.
+    - Source: https://www.geeksforgeeks.org/whats-is-domain-name-systemdns/
+  - Regions: Regions are collections of zones. Zones have high-bandwidth, low-latency network connections to other zones in the same region. 
+    - Source: https://cloud.google.com/compute/docs/regions-zones
+  - Zones: A zone is a deployment area within a region.
+    - Source: https://cloud.google.com/compute/docs/regions-zones
+  - Fiber Optics: Fiber optics refers to the technology and method of transmitting data as light pulses along a glass or plastic strand or fiber.
+    - Source: https://www.geeksforgeeks.org/fiber-optics-and-types/
+  - Subsea Cables: Subsea cables are a crucial component of the modern global telecommunications network, enabling the transmission of data and communication between continents and countries. These cables are laid on the seabed and connect various land-based communication networks, allowing for the seamless exchange of information across vast distances.
+    - Sorce: https://umatechnology.org/what-are-subsea-cables-and-why-are-they-important/
+  - Network Edge Data Centers: These sites are sometimes referred to as points of presence or PoPs. Google Cloud offers connections to Google Cloud services from over 100 locations across many metropolitan areas.
+    - Source: https://cloud.google.com/vpc/docs/edge-locations
+  - Bandwidth: Network bandwidth is the maximum capacity of a wired or wireless communications link to deliver data via a network connection in a given amount of time.
+    - Source: https://www.geeksforgeeks.org/what-is-bandwidth-definition-working-importance-uses/
+- Discuss how Google Cloud supports digital transformation with global infrastructure and data centers connected by a fast, reliable network.
+  - 100s of 1000s of miles of fiber optic cable including more than a dozen subsea cables are laid out between the data center and internet facing WANs. A machine gets connected from the internet via the public WAN and gets connected to other machines on the network via the private WAN. For example, when you send a packet from your virtual machine running in the cloud in one region to a GCS bucket in another, the packet does not leave the Google network backbone. In addition, network load balancers and layer 7 reverse proxies are deployed at the network edge, which terminates the TCP/SSL connection at a location closest to the user — eliminating the two network round trips needed to establish an HTTPS connection.
+    - Source: https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-networking-overview
+
 ## 1.3 - Cloud Computing Models and Shared Responsibility
 
